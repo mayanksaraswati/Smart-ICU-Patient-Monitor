@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart ICU Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Smart ICU Patient Monitoring</h1>
+    <div class="card">
+        <h2>Heart Rate:</h2>
+        <p>{{ data['heart'] }} bpm</p>
+    </div>
+    <div class="card">
+        <h2>Temperature:</h2>
+        <p>{{ data['temp'] }} °C</p>
+    </div>
+    <div class="card">
+        <h2>Oxygen Level:</h2>
+        <p>{{ data['oxygen'] }} %</p>
+    </div>
+</body>
+</html>
